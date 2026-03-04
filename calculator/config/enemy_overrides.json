@@ -1,0 +1,24 @@
+{
+  "14004200": {
+    "special_buff_id": 291400
+  },
+  "14701006": {
+    "phase_change_buff_id": 271470,
+    "buff_active_phase_num": 2
+  },
+  "51000000": {
+    "inner_battle_profile": "lion_ape"
+  },
+  "51000010": {
+    "inner_battle_profile": "lion_ape"
+  },
+  "51000100": {
+    "inner_battle_profile": "lion_ape"
+  },
+  "70200000": {
+    "inner_battle_profile": "demon_hatred"
+  },
+  "71013000": {
+    "inner_battle_profile": "inner_genichiro"
+  }
+}

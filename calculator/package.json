@@ -1,0 +1,11 @@
+{
+  "name": "sekiro-wiki-calculator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:data": "python scripts/export_data.py",
+    "test": "node tests/sample.test.js",
+    "start": "python -m http.server 4173"
+  }
+}

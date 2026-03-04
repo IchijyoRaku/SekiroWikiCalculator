@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>只狼 BWiki 计算器</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="hero">
+        <h1>只狼 BWiki 数据计算器</h1>
+        <p id="meta-info">正在加载数据...</p>
+      </header>
+
+      <section class="panel controls">
+        <label>
+          敌人
+          <select id="enemy-select"></select>
+        </label>
+        <label>
+          天色
+          <select id="time-select"></select>
+        </label>
+        <label>
+          阶段
+          <select id="phase-select"></select>
+        </label>
+        <label class="checkbox">
+          <input id="detail-toggle" type="checkbox" />
+          展开乘区明细
+        </label>
+      </section>
+
+      <section class="panel">
+        <h2>主线矩阵（8 周目 x 4 难度）</h2>
+        <div id="mainline-matrix"></div>
+      </section>
+
+      <section class="panel">
+        <h2>再战结果</h2>
+        <div id="rebattle-matrix"></div>
+      </section>
+
+      <section class="panel">
+        <h2>死斗结果</h2>
+        <div id="death-matrix"></div>
+      </section>
+
+      <section id="detail-panel" class="panel hidden">
+        <h2>乘区明细（当前敌人）</h2>
+        <pre id="detail-content"></pre>
+      </section>
+
+      <section id="error-panel" class="panel error hidden">
+        <h2>加载失败</h2>
+        <p id="error-message"></p>
+        <button id="retry-btn" type="button">重试</button>
+      </section>
+    </main>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
