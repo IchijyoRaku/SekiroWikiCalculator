@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>只狼 BWiki 敌人数值计算器</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="hero panel">
+        <h1>只狼 BWiki 敌人数值计算器</h1>
+        <p>
+          当前版本优先调整为真实数据驱动的结构。顶部筛选区顺序为天色、阶段、敌人，结果区保留周目 1-8 与特殊模式列，点击单元格查看计算链。
+        </p>
+      </header>
+
+      <section class="panel info-grid">
+        <div>
+          <h2>当前规则摘要</h2>
+          <ul id="rule-list" class="rule-list"></ul>
+        </div>
+        <div>
+          <h2>当前敌人概览</h2>
+          <div id="summary-chips" class="summary-chips"></div>
+        </div>
+      </section>
+
+      <section class="panel table-panel">
+        <div class="panel-heading">
+          <h2>结果表格</h2>
+          <p>当前版本已优先改为全量敌人下拉与真实数据优先，不再手工删减敌人条目。</p>
+        </div>
+        <div class="table-viewport">
+          <div id="table-container"></div>
+        </div>
+      </section>
+
+      <section class="panel tip-panel">
+        <div class="panel-heading">
+          <h2>Tip 明细</h2>
+          <p id="tip-caption">请选择一个结果单元格查看乘算链。</p>
+        </div>
+        <div id="tip-content" class="tip-empty">尚未选中结果。</div>
+      </section>
+    </main>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

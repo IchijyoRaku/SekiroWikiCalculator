@@ -1,0 +1,288 @@
+:root {
+  --bg: #f3f3f3;
+  --panel: #ffffff;
+  --border: #cfcfcf;
+  --border-strong: #aaaaaa;
+  --head: #ececec;
+  --subhead: #f7f7f7;
+  --text: #222222;
+  --muted: #666666;
+  --chip: #f5f5f5;
+  --accent: #dcdcdc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+button,
+select {
+  font: inherit;
+}
+
+.app {
+  max-width: 1680px;
+  margin: 0 auto;
+  padding: 16px;
+  display: grid;
+  gap: 14px;
+}
+
+.panel {
+  border: 1px solid var(--border);
+  background: var(--panel);
+  border-radius: 2px;
+  padding: 12px;
+}
+
+.hero {
+  padding: 14px 16px;
+}
+
+.hero h1,
+.panel h2,
+.panel h3 {
+  margin: 0;
+  color: #111111;
+}
+
+.hero h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.hero p,
+.panel-heading p,
+.tip-empty,
+.rule-list,
+.tip-meta {
+  color: var(--muted);
+}
+
+.hero p,
+.panel-heading p {
+  margin: 0;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 14px;
+}
+
+.rule-list {
+  margin: 10px 0 0;
+  padding-left: 18px;
+}
+
+.summary-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.summary-chip {
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  background: var(--chip);
+  color: #555555;
+  font-size: 12px;
+}
+
+.panel-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.table-viewport {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  background: #ffffff;
+}
+
+.result-table {
+  width: 100%;
+  min-width: 1560px;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.result-table th,
+.result-table td {
+  border: 1px solid var(--border);
+  padding: 6px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+.result-table thead th {
+  background: var(--head);
+  font-weight: 600;
+}
+
+.result-table .super-head {
+  background: #e7e7e7;
+}
+
+.result-table .difficulty-head {
+  width: 88px;
+  background: var(--subhead);
+}
+
+.result-table .metric-head {
+  width: 88px;
+  background: #fafafa;
+}
+
+.result-table .selector-cell {
+  padding: 6px;
+  background: #fcfcfc;
+}
+
+.result-table .selector-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.result-table .selector-row label {
+  display: grid;
+  gap: 4px;
+  color: #555555;
+  font-size: 12px;
+  text-align: left;
+}
+
+.result-table .selector-row label.short {
+  width: 120px;
+  flex: 0 0 120px;
+}
+
+.result-table .selector-row label.enemy {
+  width: 220px;
+  flex: 0 0 220px;
+}
+
+.result-table .selector-row select {
+  width: 100%;
+  border: 1px solid var(--border-strong);
+  border-radius: 2px;
+  padding: 6px 8px;
+  background: #ffffff;
+  color: var(--text);
+}
+
+.filter-reset {
+  width: 22px;
+  height: 22px;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  background: #ffffff;
+  color: #666666;
+  font-size: 11px;
+  line-height: 1;
+  padding: 0;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.filter-reset:hover,
+.filter-reset:focus-visible {
+  background: var(--accent);
+  outline: none;
+}
+
+.result-table .merged-label {
+  background: #f1f1f1;
+  font-weight: 600;
+}
+
+.result-table td button {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  padding: 2px;
+  cursor: pointer;
+  color: #222222;
+}
+
+.result-table td button:hover,
+.result-table td button:focus-visible {
+  background: var(--accent);
+  outline: none;
+}
+
+.result-table td button strong {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.tip-panel {
+  display: grid;
+  gap: 10px;
+}
+
+.tip-empty {
+  padding: 8px 0;
+}
+
+.tip-card {
+  display: grid;
+  gap: 10px;
+}
+
+.tip-meta {
+  font-size: 13px;
+}
+
+.tip-formula {
+  padding: 10px;
+  border: 1px solid var(--border);
+  background: #fafafa;
+  word-break: break-word;
+}
+
+.tip-step-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tip-step-table th,
+.tip-step-table td {
+  border: 1px solid var(--border);
+  padding: 6px;
+  text-align: left;
+  font-size: 12px;
+}
+
+.tip-step-table th {
+  background: var(--subhead);
+}
+
+@media (max-width: 1200px) {
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .result-table .selector-row {
+    flex-wrap: wrap;
+  }
+}
