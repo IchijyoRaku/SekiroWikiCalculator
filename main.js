@@ -593,7 +593,7 @@ function renderTable(enemy) {
     columns.forEach((column) => {
       const computation = buildComputation(enemy, row.metric, row.difficulty, column);
       const key = `${row.group.key}|${row.metric.key}|${column.key}`;
-      html.push(`<td><button type="button" data-key="${key}"><strong>${computation?.value ?? '-'}</strong></button></td>`);
+      html.push(`<td><button type="button" data-key="${key}" class="${state.selectedKey === key ? 'is-selected' : ''}"><strong>${computation?.value ?? '-'}</strong></button></td>`);
     });
     html.push('</tr>');
   });

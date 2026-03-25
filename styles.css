@@ -223,6 +223,10 @@ select {
   color: #222222;
 }
 
+.result-table td button.is-selected {
+  background: var(--accent);
+}
+
 .result-table td button:hover,
 .result-table td button:focus-visible {
   background: var(--accent);
