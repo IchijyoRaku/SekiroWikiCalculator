@@ -138,7 +138,7 @@
       "deathBattleBuffStart": 7938,
       "shuraBattlefieldBuffStart": null,
       "shuraBattleBuffStart": null,
-      "phaseNum": 1,
+      "phaseNum": 2,
       "baseHp": 3520,
       "baseStamina": 1140,
       "baseStaminaRecover": 60,
@@ -16667,28 +16667,28 @@
     },
     "271470": {
       "id": 271470,
-      "name": "[NTC] HP / Total amount of trunk change_Solitary people_Middle boss -- 【NTC】HP・体幹総量変化_孤影衆_中ボス",
+      "name": "枪足之正常（白蛇神社）二阶段加成",
       "hp": 1.25,
       "stamina": 1.0,
       "staminaRecover": 1.0
     },
     "275000": {
       "id": 275000,
-      "name": "[NTC] HP / Total amount of trunk change_Burning monk_Second phase (using illusion) -- 【NTC】HP・体幹総量変化_破戒僧_第二フェーズ(幻術使用)",
+      "name": "宫内破戒僧二阶段加成",
       "hp": 0.75,
       "stamina": 1.0,
       "staminaRecover": 1.0
     },
     "275001": {
       "id": 275001,
-      "name": "[NTC] HP / Total amount of trunk change_Burning monk_Third phase (Mushi) -- 【NTC】HP・体幹総量変化_破戒僧_第三フェーズ(蟲)",
+      "name": "宫内破戒僧三阶段加成",
       "hp": 1.0625,
       "stamina": 1.0,
       "staminaRecover": 2.0
     },
     "275060": {
       "id": 275060,
-      "name": "[NTC] HP / Total amount of trunk change_True_Ninja army chief_After HU -- 【NTC】HP・体幹総量変化_真_忍軍の長_HU後",
+      "name": "义父二阶段加成",
       "hp": 0.89,
       "stamina": 1.0,
       "staminaRecover": 1.0
@@ -16709,7 +16709,7 @@
     },
     "275100": {
       "id": 275100,
-      "name": "[NTC] HP / Total amount of trunk change_Yasha Ape_First match -- 【NTC】HP・体幹総量変化_夜叉猿_初戦",
+      "name": "狮子猿二阶段加成",
       "hp": 1.1,
       "stamina": 1.0,
       "staminaRecover": 1.0
@@ -16723,21 +16723,21 @@
     },
     "275400": {
       "id": 275400,
-      "name": "[NTC] HP / Total amount of trunk change_Revived Kensei -- 【NTC】HP・体幹総量変化_蘇った剣聖",
+      "name": "全盛一心二阶段加成",
       "hp": 1.27,
       "stamina": 1.0,
       "staminaRecover": 1.0
     },
     "275401": {
       "id": 275401,
-      "name": "[NTC] HP / Total amount of trunk change_Revived Kensei -- 【NTC】HP・体幹総量変化_蘇った剣聖",
+      "name": "全盛一心三阶段加成",
       "hp": 1.27,
       "stamina": 1.0,
       "staminaRecover": 1.0
     },
     "275430": {
       "id": 275430,
-      "name": "[NTC] HP / Total amount of trunk change_Revived Kensei_Swordsman in bed -- 【NTC】HP・体幹総量変化_蘇った剣聖_病床の剣聖",
+      "name": "老一心二阶段加成",
       "hp": 1.2,
       "stamina": 1.0,
       "staminaRecover": 1.0

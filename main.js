@@ -540,9 +540,6 @@ function renderRules(enemy) {
     `当前敌人：${enemy.name ?? enemy.id}`,
     `当前天色：${TIME_OPTIONS.find((item) => item.value === state.time)?.label || state.time}`,
     `当前阶段：${state.phase}阶段`,
-    `顶部筛选顺序：天色、阶段、敌人。`,
-    `敌人下拉已直接来自 data.json 中的全量 enemies 数据。`,
-    `buff 也已改为直接来自 data.json 中的全量 buffs 数据。`,
   ];
   refs.ruleList.innerHTML = rules.map((text) => `<li>${text}</li>`).join("");
 }
