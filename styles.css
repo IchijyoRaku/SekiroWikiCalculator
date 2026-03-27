@@ -30,7 +30,7 @@ select {
 }
 
 .app {
-  max-width: 1060px;
+  max-width: 1680px;
   margin: 0 auto;
   padding: 16px;
   display: grid;
@@ -74,8 +74,15 @@ select {
   margin: 0;
 }
 
-.summary-panel {
-  display: block;
+.info-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 14px;
+}
+
+.rule-list {
+  margin: 10px 0 0;
+  padding-left: 18px;
 }
 
 .summary-chips {
@@ -109,7 +116,7 @@ select {
 
 .result-table {
   width: 100%;
-  min-width: 980px;
+  min-width: 1560px;
   border-collapse: collapse;
   table-layout: fixed;
 }
