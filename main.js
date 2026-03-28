@@ -673,7 +673,7 @@ function renderTable(enemy) {
   refs.tableContainer.querySelectorAll('button[data-key]').forEach((button) => {
     button.addEventListener('click', () => {
       state.selectedKey = button.dataset.key;
-      renderTip(enemy);
+      renderApp();
     });
   });
 }
@@ -702,10 +702,9 @@ function renderTip(enemy) {
     return;
   }
 
-  refs.tipCaption.textContent = `${enemy.name ?? enemy.id}｜${computation.modeLabel}｜${computation.difficultyLabel}｜${computation.metricLabel}`;
+  refs.tipCaption.textContent = `ID ${enemy.id}｜${enemy.name ?? enemy.id}｜${computation.modeLabel}周目｜${computation.metricLabel}｜${computation.difficultyLabel}｜${TIME_OPTIONS.find((item) => item.value === state.time)?.label || state.time}｜${state.phase}阶段｜最终值 ${computation.value}`;
   refs.tipContent.className = 'tip-card';
   refs.tipContent.innerHTML = `
-    <div class="tip-meta">ID ${enemy.id}｜${TIME_OPTIONS.find((item) => item.value === state.time)?.label || state.time}｜${state.phase}阶段｜最终值 ${computation.value}</div>
     <div class="tip-formula">${computation.formula}</div>
     <table class="tip-step-table">
       <thead>
