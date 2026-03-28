@@ -3278,7 +3278,7 @@
       "id": 2250,
       "name": "The curse of the strong man -- 強者の呪い",
       "hp": 1.2,
-      "stamina": 1.0,
+      "stamina": 1.2,
       "staminaRecover": 1.0
     },
     "2260": {
@@ -3768,7 +3768,7 @@
       "id": 3361,
       "name": "Attack enhancement_with disadvantages (infinite / consumption of form) _effect -- 攻撃強化_デメリット付き（無限/形代消費）_効果",
       "hp": 0.5,
-      "stamina": 0.0,
+      "stamina": 0.5,
       "staminaRecover": 1.0
     },
     "3370": {
@@ -3866,7 +3866,7 @@
       "id": 3411,
       "name": "Attack enhancement_with disadvantages_effect -- 攻撃強化_デメリット付き_効果",
       "hp": 0.5,
-      "stamina": 0.0,
+      "stamina": 0.5,
       "staminaRecover": 1.0
     },
     "3420": {
@@ -4763,21 +4763,21 @@
       "name": "Combat balance adjustment test_PC_HP 75% -50% core performance DOWN -- 戦闘バランス調整テスト_PC_HP75%～50%で体幹性能DOWN",
       "hp": 1.0,
       "stamina": 1.0,
-      "staminaRecover": 1.0
+      "staminaRecover": 0.75
     },
     "5222": {
       "id": 5222,
       "name": "Combat balance adjustment test_PC_HP 50% -25% core performance DOWN -- 戦闘バランス調整テスト_PC_HP50%～25%で体幹性能DOWN",
       "hp": 1.0,
       "stamina": 1.0,
-      "staminaRecover": 1.0
+      "staminaRecover": 0.6666667
     },
     "5223": {
       "id": 5223,
       "name": "Combat balance adjustment test_PC_HP 25% to 0% core performance DOWN -- 戦闘バランス調整テスト_PC_HP25%～0%で体幹性能DOWN",
       "hp": 1.0,
       "stamina": 1.0,
-      "staminaRecover": 0.0
+      "staminaRecover": 0.5
     },
     "5230": {
       "id": 5230,
@@ -6225,15 +6225,15 @@
       "id": 7011,
       "name": "苇名城 城邑_正午",
       "hp": 1.25,
-      "stamina": 1.0,
-      "staminaRecover": 1.0
+      "stamina": 1.25,
+      "staminaRecover": 1.25
     },
     "7012": {
       "id": 7012,
       "name": "苇名城 城邑_黄昏",
       "hp": 1.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.5,
+      "staminaRecover": 1.5
     },
     "7013": {
       "id": 7013,
@@ -6267,15 +6267,15 @@
       "id": 7030,
       "name": "平田宅邸(后半部分)_清晨",
       "hp": 1.25,
-      "stamina": 1.0,
-      "staminaRecover": 1.0
+      "stamina": 1.25,
+      "staminaRecover": 1.25
     },
     "7031": {
       "id": 7031,
       "name": "平田宅邸(后半部分)_正午",
       "hp": 1.75,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.75,
+      "staminaRecover": 1.75
     },
     "7032": {
       "id": 7032,
@@ -6288,8 +6288,8 @@
       "id": 7033,
       "name": "平田宅邸(后半部分)_深夜",
       "hp": 2.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.5,
+      "staminaRecover": 2.5
     },
     "7034": {
       "id": 7034,
@@ -6302,15 +6302,15 @@
       "id": 7040,
       "name": "苇名城 主城_清晨",
       "hp": 1.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.5,
+      "staminaRecover": 1.5
     },
     "7041": {
       "id": 7041,
       "name": "苇名城 主城_正午",
       "hp": 1.75,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.75,
+      "staminaRecover": 1.75
     },
     "7042": {
       "id": 7042,
@@ -6323,8 +6323,8 @@
       "id": 7043,
       "name": "苇名城 主城_深夜",
       "hp": 2.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.5,
+      "staminaRecover": 2.5
     },
     "7044": {
       "id": 7044,
@@ -6337,22 +6337,22 @@
       "id": 7050,
       "name": "贮水城区_清晨",
       "hp": 1.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.5,
+      "staminaRecover": 1.5
     },
     "7051": {
       "id": 7051,
       "name": "贮水城区_正午",
       "hp": 1.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.5,
+      "staminaRecover": 1.5
     },
     "7052": {
       "id": 7052,
       "name": "贮水城区_黄昏",
       "hp": 1.75,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.75,
+      "staminaRecover": 1.75
     },
     "7053": {
       "id": 7053,
@@ -6372,22 +6372,22 @@
       "id": 7060,
       "name": "地牢_清晨",
       "hp": 1.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.5,
+      "staminaRecover": 1.5
     },
     "7061": {
       "id": 7061,
       "name": "地牢_正午",
       "hp": 1.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.5,
+      "staminaRecover": 1.5
     },
     "7062": {
       "id": 7062,
       "name": "地牢_黄昏",
       "hp": 1.75,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.75,
+      "staminaRecover": 1.75
     },
     "7063": {
       "id": 7063,
@@ -6407,29 +6407,29 @@
       "id": 7070,
       "name": "金刚山 仙峰寺_清晨",
       "hp": 1.75,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.75,
+      "staminaRecover": 1.75
     },
     "7071": {
       "id": 7071,
       "name": "金刚山 仙峰寺_正午",
       "hp": 1.75,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.75,
+      "staminaRecover": 1.75
     },
     "7072": {
       "id": 7072,
       "name": "金刚山 仙峰寺_黄昏",
       "hp": 2.25,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.25,
+      "staminaRecover": 2.25
     },
     "7073": {
       "id": 7073,
       "name": "金刚山 仙峰寺_深夜",
       "hp": 2.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.5,
+      "staminaRecover": 2.5
     },
     "7074": {
       "id": 7074,
@@ -6456,15 +6456,15 @@
       "id": 7082,
       "name": "崩落峡谷_黄昏",
       "hp": 2.25,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.25,
+      "staminaRecover": 2.25
     },
     "7083": {
       "id": 7083,
       "name": "崩落峡谷_深夜",
       "hp": 2.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.5,
+      "staminaRecover": 2.5
     },
     "7084": {
       "id": 7084,
@@ -6477,29 +6477,29 @@
       "id": 7090,
       "name": "苇名之底_清晨",
       "hp": 2.25,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.25,
+      "staminaRecover": 2.25
     },
     "7091": {
       "id": 7091,
       "name": "苇名之底_正午",
       "hp": 2.25,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.25,
+      "staminaRecover": 2.25
     },
     "7092": {
       "id": 7092,
       "name": "苇名之底_黄昏",
       "hp": 2.25,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.25,
+      "staminaRecover": 2.25
     },
     "7093": {
       "id": 7093,
       "name": "苇名之底_深夜",
       "hp": 2.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.5,
+      "staminaRecover": 2.5
     },
     "7094": {
       "id": 7094,
@@ -6512,29 +6512,29 @@
       "id": 7100,
       "name": "水生村_清晨",
       "hp": 2.25,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.25,
+      "staminaRecover": 2.25
     },
     "7101": {
       "id": 7101,
       "name": "水生村_正午",
       "hp": 2.25,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.25,
+      "staminaRecover": 2.25
     },
     "7102": {
       "id": 7102,
       "name": "水生村_黄昏",
       "hp": 2.25,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.25,
+      "staminaRecover": 2.25
     },
     "7103": {
       "id": 7103,
       "name": "水生村_深夜",
       "hp": 2.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.5,
+      "staminaRecover": 2.5
     },
     "7104": {
       "id": 7104,
@@ -6547,29 +6547,29 @@
       "id": 7110,
       "name": "苇名城 主城 (第一次入侵) _ 默认",
       "hp": 2.75,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.75,
+      "staminaRecover": 2.75
     },
     "7114": {
       "id": 7114,
       "name": "苇名城 主城 (第一次入侵) _ 钟鬼",
       "hp": 3.75,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 3.75,
+      "staminaRecover": 3.75
     },
     "7120": {
       "id": 7120,
       "name": "平田宅邸 (义父的守护铃) _默认",
       "hp": 3.5,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 3.5,
+      "staminaRecover": 3.5
     },
     "7124": {
       "id": 7124,
       "name": "平田宅邸 (义父的守护铃) _ 钟鬼",
       "hp": 4.25,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 4.25,
+      "staminaRecover": 4.25
     },
     "7130": {
       "id": 7130,
@@ -6582,85 +6582,85 @@
       "id": 7134,
       "name": "源之宫_钟鬼",
       "hp": 3.75,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 3.75,
+      "staminaRecover": 3.75
     },
     "7140": {
       "id": 7140,
       "name": "苇名城 主城 (第二次入侵) _ 默认",
       "hp": 3.5,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 3.5,
+      "staminaRecover": 3.5
     },
     "7144": {
       "id": 7144,
       "name": "苇名城 主城 (第二次入侵) _ 钟鬼",
       "hp": 4.25,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 4.25,
+      "staminaRecover": 4.25
     },
     "7150": {
       "id": 7150,
       "name": "贮水城区 (第二次入侵) _ 默认",
       "hp": 3.75,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 3.75,
+      "staminaRecover": 3.75
     },
     "7154": {
       "id": 7154,
       "name": "贮水城区 (第二次入侵) _ 钟鬼",
       "hp": 4.25,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 4.25,
+      "staminaRecover": 4.25
     },
     "7160": {
       "id": 7160,
       "name": "苇名城 城邑 (第二次入侵) _ 默认",
       "hp": 3.75,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 3.75,
+      "staminaRecover": 3.75
     },
     "7164": {
       "id": 7164,
       "name": "苇名城 城邑 (第二次入侵) _ 钟鬼",
       "hp": 4.25,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 4.25,
+      "staminaRecover": 4.25
     },
     "7170": {
       "id": 7170,
       "name": "通关后_默认",
       "hp": 4.25,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 4.25,
+      "staminaRecover": 4.25
     },
     "7174": {
       "id": 7174,
       "name": "通关后_钟鬼",
       "hp": 4.5,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 4.5,
+      "staminaRecover": 4.5
     },
     "7500": {
       "id": 7500,
       "name": "贮水城区 (序章) _默认",
       "hp": 4.35,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 4.35,
+      "staminaRecover": 4.35
     },
     "7510": {
       "id": 7510,
       "name": "苇名城 城邑_清晨",
       "hp": 4.35,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 4.35,
+      "staminaRecover": 4.35
     },
     "7511": {
       "id": 7511,
       "name": "苇名城 城邑_正午",
       "hp": 3.5,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 3.5,
+      "staminaRecover": 3.5
     },
     "7512": {
       "id": 7512,
@@ -6673,8 +6673,8 @@
       "id": 7513,
       "name": "苇名城 城邑_深夜",
       "hp": 2.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.5,
+      "staminaRecover": 2.5
     },
     "7514": {
       "id": 7514,
@@ -6687,8 +6687,8 @@
       "id": 7520,
       "name": "平田宅邸(前半部分)_默认",
       "hp": 4.35,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 4.35,
+      "staminaRecover": 4.35
     },
     "7524": {
       "id": 7524,
@@ -6701,29 +6701,29 @@
       "id": 7530,
       "name": "平田宅邸(后半部分)_清晨",
       "hp": 3.6,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 3.6,
+      "staminaRecover": 3.6
     },
     "7531": {
       "id": 7531,
       "name": "平田宅邸(后半部分)_正午",
       "hp": 2.6,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.6,
+      "staminaRecover": 2.6
     },
     "7532": {
       "id": 7532,
       "name": "平田宅邸(后半部分)_黄昏",
       "hp": 2.4,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.4,
+      "staminaRecover": 2.4
     },
     "7533": {
       "id": 7533,
       "name": "平田宅邸(后半部分)_深夜",
       "hp": 2.2,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.2,
+      "staminaRecover": 2.2
     },
     "7534": {
       "id": 7534,
@@ -6736,29 +6736,29 @@
       "id": 7540,
       "name": "苇名城 主城_清晨",
       "hp": 3.2,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 3.2,
+      "staminaRecover": 3.2
     },
     "7541": {
       "id": 7541,
       "name": "苇名城 主城_正午",
       "hp": 2.75,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.75,
+      "staminaRecover": 2.75
     },
     "7542": {
       "id": 7542,
       "name": "苇名城 主城_黄昏",
       "hp": 2.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.5,
+      "staminaRecover": 2.5
     },
     "7543": {
       "id": 7543,
       "name": "苇名城 主城_深夜",
       "hp": 2.2,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.2,
+      "staminaRecover": 2.2
     },
     "7544": {
       "id": 7544,
@@ -6771,8 +6771,8 @@
       "id": 7550,
       "name": "贮水城区_清晨",
       "hp": 2.8,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.8,
+      "staminaRecover": 2.8
     },
     "7551": {
       "id": 7551,
@@ -6785,15 +6785,15 @@
       "id": 7552,
       "name": "贮水城区_黄昏",
       "hp": 2.7,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.7,
+      "staminaRecover": 2.7
     },
     "7553": {
       "id": 7553,
       "name": "贮水城区_深夜",
       "hp": 2.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.5,
+      "staminaRecover": 2.5
     },
     "7554": {
       "id": 7554,
@@ -6806,8 +6806,8 @@
       "id": 7560,
       "name": "地牢_清晨",
       "hp": 2.8,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.8,
+      "staminaRecover": 2.8
     },
     "7561": {
       "id": 7561,
@@ -6820,15 +6820,15 @@
       "id": 7562,
       "name": "地牢_黄昏",
       "hp": 2.7,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.7,
+      "staminaRecover": 2.7
     },
     "7563": {
       "id": 7563,
       "name": "地牢_深夜",
       "hp": 2.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.5,
+      "staminaRecover": 2.5
     },
     "7564": {
       "id": 7564,
@@ -6841,29 +6841,29 @@
       "id": 7570,
       "name": "金刚山 仙峰寺_清晨",
       "hp": 2.8,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.8,
+      "staminaRecover": 2.8
     },
     "7571": {
       "id": 7571,
       "name": "金刚山 仙峰寺_正午",
       "hp": 2.8,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.8,
+      "staminaRecover": 2.8
     },
     "7572": {
       "id": 7572,
       "name": "金刚山 仙峰寺_黄昏",
       "hp": 2.3,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.3,
+      "staminaRecover": 2.3
     },
     "7573": {
       "id": 7573,
       "name": "金刚山 仙峰寺_深夜",
       "hp": 2.2,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.2,
+      "staminaRecover": 2.2
     },
     "7574": {
       "id": 7574,
@@ -6876,29 +6876,29 @@
       "id": 7580,
       "name": "崩落峡谷_清晨",
       "hp": 2.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.5,
+      "staminaRecover": 2.5
     },
     "7581": {
       "id": 7581,
       "name": "崩落峡谷_正午",
       "hp": 2.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.5,
+      "staminaRecover": 2.5
     },
     "7582": {
       "id": 7582,
       "name": "崩落峡谷_黄昏",
       "hp": 2.3,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.3,
+      "staminaRecover": 2.3
     },
     "7583": {
       "id": 7583,
       "name": "崩落峡谷_深夜",
       "hp": 2.2,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.2,
+      "staminaRecover": 2.2
     },
     "7584": {
       "id": 7584,
@@ -6911,29 +6911,29 @@
       "id": 7590,
       "name": "苇名之底_清晨",
       "hp": 2.4,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.4,
+      "staminaRecover": 2.4
     },
     "7591": {
       "id": 7591,
       "name": "苇名之底_正午",
       "hp": 2.4,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.4,
+      "staminaRecover": 2.4
     },
     "7592": {
       "id": 7592,
       "name": "苇名之底_黄昏",
       "hp": 2.4,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.4,
+      "staminaRecover": 2.4
     },
     "7593": {
       "id": 7593,
       "name": "苇名之底_深夜",
       "hp": 2.2,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.2,
+      "staminaRecover": 2.2
     },
     "7594": {
       "id": 7594,
@@ -6946,29 +6946,29 @@
       "id": 7600,
       "name": "水生村_清晨",
       "hp": 2.4,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.4,
+      "staminaRecover": 2.4
     },
     "7601": {
       "id": 7601,
       "name": "水生村_正午",
       "hp": 2.4,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.4,
+      "staminaRecover": 2.4
     },
     "7602": {
       "id": 7602,
       "name": "水生村_黄昏",
       "hp": 2.4,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.4,
+      "staminaRecover": 2.4
     },
     "7603": {
       "id": 7603,
       "name": "水生村_深夜",
       "hp": 2.2,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.2,
+      "staminaRecover": 2.2
     },
     "7604": {
       "id": 7604,
@@ -6981,29 +6981,29 @@
       "id": 7610,
       "name": "苇名城 主城 (第一次入侵) _ 默认",
       "hp": 2.15,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.15,
+      "staminaRecover": 2.15
     },
     "7614": {
       "id": 7614,
       "name": "苇名城 主城 (第一次入侵) _ 钟鬼",
       "hp": 1.75,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.75,
+      "staminaRecover": 1.75
     },
     "7620": {
       "id": 7620,
       "name": "平田宅邸 (义父的守护铃) _默认",
       "hp": 1.75,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.75,
+      "staminaRecover": 1.75
     },
     "7624": {
       "id": 7624,
       "name": "平田宅邸 (义父的守护铃) _ 钟鬼",
       "hp": 1.55,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.55,
+      "staminaRecover": 1.55
     },
     "7630": {
       "id": 7630,
@@ -7016,64 +7016,64 @@
       "id": 7634,
       "name": "源之宫_钟鬼",
       "hp": 1.75,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.75,
+      "staminaRecover": 1.75
     },
     "7640": {
       "id": 7640,
       "name": "苇名城 主城 (第二次入侵) _ 默认",
       "hp": 1.75,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.75,
+      "staminaRecover": 1.75
     },
     "7644": {
       "id": 7644,
       "name": "苇名城 主城 (第二次入侵) _ 钟鬼",
       "hp": 1.55,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.55,
+      "staminaRecover": 1.55
     },
     "7650": {
       "id": 7650,
       "name": "贮水城区 (第二次入侵) _ 默认",
       "hp": 1.65,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.65,
+      "staminaRecover": 1.65
     },
     "7654": {
       "id": 7654,
       "name": "贮水城区 (第二次入侵) _ 钟鬼",
       "hp": 1.55,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.55,
+      "staminaRecover": 1.55
     },
     "7660": {
       "id": 7660,
       "name": "苇名城 城邑 (第二次入侵) _ 默认",
       "hp": 1.65,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.65,
+      "staminaRecover": 1.65
     },
     "7664": {
       "id": 7664,
       "name": "苇名城 城邑 (第二次入侵) _ 钟鬼",
       "hp": 1.55,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.55,
+      "staminaRecover": 1.55
     },
     "7670": {
       "id": 7670,
       "name": "通关后_默认",
       "hp": 1.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.5,
+      "staminaRecover": 1.5
     },
     "7674": {
       "id": 7674,
       "name": "通关后_钟鬼",
       "hp": 1.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.5,
+      "staminaRecover": 1.5
     },
     "7700": {
       "id": 7700,
@@ -7086,15 +7086,15 @@
       "id": 7710,
       "name": "苇名城 城邑_清晨",
       "hp": 1.2,
-      "stamina": 1.0,
-      "staminaRecover": 1.0
+      "stamina": 1.2,
+      "staminaRecover": 1.2
     },
     "7711": {
       "id": 7711,
       "name": "苇名城 城邑_正午",
       "hp": 1.6,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.6,
+      "staminaRecover": 1.6
     },
     "7712": {
       "id": 7712,
@@ -7107,8 +7107,8 @@
       "id": 7713,
       "name": "苇名城 城邑_深夜",
       "hp": 2.6,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.6,
+      "staminaRecover": 2.6
     },
     "7714": {
       "id": 7714,
@@ -7121,8 +7121,8 @@
       "id": 7720,
       "name": "平田宅邸(前半部分)_默认",
       "hp": 1.2,
-      "stamina": 1.0,
-      "staminaRecover": 1.0
+      "stamina": 1.2,
+      "staminaRecover": 1.2
     },
     "7724": {
       "id": 7724,
@@ -7135,8 +7135,8 @@
       "id": 7730,
       "name": "平田宅邸(后半部分)_清晨",
       "hp": 1.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.5,
+      "staminaRecover": 1.5
     },
     "7731": {
       "id": 7731,
@@ -7149,15 +7149,15 @@
       "id": 7732,
       "name": "平田宅邸(后半部分)_黄昏",
       "hp": 2.4,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.4,
+      "staminaRecover": 2.4
     },
     "7733": {
       "id": 7733,
       "name": "平田宅邸(后半部分)_深夜",
       "hp": 2.6,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.6,
+      "staminaRecover": 2.6
     },
     "7734": {
       "id": 7734,
@@ -7170,22 +7170,22 @@
       "id": 7740,
       "name": "苇名城 主城_清晨",
       "hp": 1.9,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.9,
+      "staminaRecover": 1.9
     },
     "7741": {
       "id": 7741,
       "name": "苇名城 主城_正午",
       "hp": 2.1,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.1,
+      "staminaRecover": 2.1
     },
     "7742": {
       "id": 7742,
       "name": "苇名城 主城_黄昏",
       "hp": 2.7,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.7,
+      "staminaRecover": 2.7
     },
     "7743": {
       "id": 7743,
@@ -7205,29 +7205,29 @@
       "id": 7750,
       "name": "贮水城区_清晨",
       "hp": 1.8,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.8,
+      "staminaRecover": 1.8
     },
     "7751": {
       "id": 7751,
       "name": "贮水城区_正午",
       "hp": 1.9,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.9,
+      "staminaRecover": 1.9
     },
     "7752": {
       "id": 7752,
       "name": "贮水城区_黄昏",
       "hp": 2.1,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.1,
+      "staminaRecover": 2.1
     },
     "7753": {
       "id": 7753,
       "name": "贮水城区_深夜",
       "hp": 2.6,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.6,
+      "staminaRecover": 2.6
     },
     "7754": {
       "id": 7754,
@@ -7240,29 +7240,29 @@
       "id": 7760,
       "name": "地牢_清晨",
       "hp": 1.8,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.8,
+      "staminaRecover": 1.8
     },
     "7761": {
       "id": 7761,
       "name": "地牢_正午",
       "hp": 1.9,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.9,
+      "staminaRecover": 1.9
     },
     "7762": {
       "id": 7762,
       "name": "地牢_黄昏",
       "hp": 2.1,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.1,
+      "staminaRecover": 2.1
     },
     "7763": {
       "id": 7763,
       "name": "地牢_深夜",
       "hp": 2.6,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.6,
+      "staminaRecover": 2.6
     },
     "7764": {
       "id": 7764,
@@ -7275,22 +7275,22 @@
       "id": 7770,
       "name": "金刚山 仙峰寺_清晨",
       "hp": 2.1,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.1,
+      "staminaRecover": 2.1
     },
     "7771": {
       "id": 7771,
       "name": "金刚山 仙峰寺_正午",
       "hp": 2.1,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.1,
+      "staminaRecover": 2.1
     },
     "7772": {
       "id": 7772,
       "name": "金刚山 仙峰寺_黄昏",
       "hp": 2.6,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.6,
+      "staminaRecover": 2.6
     },
     "7773": {
       "id": 7773,
@@ -7310,22 +7310,22 @@
       "id": 7780,
       "name": "崩落峡谷_清晨",
       "hp": 2.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.5,
+      "staminaRecover": 2.5
     },
     "7781": {
       "id": 7781,
       "name": "崩落峡谷_正午",
       "hp": 2.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.5,
+      "staminaRecover": 2.5
     },
     "7782": {
       "id": 7782,
       "name": "崩落峡谷_黄昏",
       "hp": 2.6,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.6,
+      "staminaRecover": 2.6
     },
     "7783": {
       "id": 7783,
@@ -7345,22 +7345,22 @@
       "id": 7790,
       "name": "苇名之底_清晨",
       "hp": 2.7,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.7,
+      "staminaRecover": 2.7
     },
     "7791": {
       "id": 7791,
       "name": "苇名之底_正午",
       "hp": 2.7,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.7,
+      "staminaRecover": 2.7
     },
     "7792": {
       "id": 7792,
       "name": "苇名之底_黄昏",
       "hp": 2.7,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.7,
+      "staminaRecover": 2.7
     },
     "7793": {
       "id": 7793,
@@ -7380,22 +7380,22 @@
       "id": 7800,
       "name": "水生村_清晨",
       "hp": 2.7,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.7,
+      "staminaRecover": 2.7
     },
     "7801": {
       "id": 7801,
       "name": "水生村_正午",
       "hp": 2.7,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.7,
+      "staminaRecover": 2.7
     },
     "7802": {
       "id": 7802,
       "name": "水生村_黄昏",
       "hp": 2.7,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.7,
+      "staminaRecover": 2.7
     },
     "7803": {
       "id": 7803,
@@ -7415,22 +7415,22 @@
       "id": 7810,
       "name": "苇名城 主城 (第一次入侵) _ 默认",
       "hp": 3.5,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 3.5,
+      "staminaRecover": 3.5
     },
     "7814": {
       "id": 7814,
       "name": "苇名城 主城 (第一次入侵) _ 钟鬼",
       "hp": 4.5,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 4.5,
+      "staminaRecover": 4.5
     },
     "7820": {
       "id": 7820,
       "name": "平田宅邸 (义父的守护铃) _默认",
       "hp": 4.4,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 4.4,
+      "staminaRecover": 4.4
     },
     "7824": {
       "id": 7824,
@@ -7443,22 +7443,22 @@
       "id": 7830,
       "name": "源之宫_默认",
       "hp": 3.6,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 3.6,
+      "staminaRecover": 3.6
     },
     "7834": {
       "id": 7834,
       "name": "源之宫_钟鬼",
       "hp": 4.5,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 4.5,
+      "staminaRecover": 4.5
     },
     "7840": {
       "id": 7840,
       "name": "苇名城 主城 (第二次入侵) _ 默认",
       "hp": 4.4,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 4.4,
+      "staminaRecover": 4.4
     },
     "7844": {
       "id": 7844,
@@ -7471,64 +7471,64 @@
       "id": 7850,
       "name": "贮水城区 (第二次入侵) _ 默认",
       "hp": 4.75,
-      "stamina": 5.0,
-      "staminaRecover": 5.0
+      "stamina": 4.75,
+      "staminaRecover": 4.75
     },
     "7854": {
       "id": 7854,
       "name": "贮水城区 (第二次入侵) _ 钟鬼",
       "hp": 5.25,
-      "stamina": 5.0,
-      "staminaRecover": 5.0
+      "stamina": 5.25,
+      "staminaRecover": 5.25
     },
     "7860": {
       "id": 7860,
       "name": "苇名城 城邑 (第二次入侵) _ 默认",
       "hp": 4.75,
-      "stamina": 5.0,
-      "staminaRecover": 5.0
+      "stamina": 4.75,
+      "staminaRecover": 4.75
     },
     "7864": {
       "id": 7864,
       "name": "苇名城 城邑 (第二次入侵) _ 钟鬼",
       "hp": 5.25,
-      "stamina": 5.0,
-      "staminaRecover": 5.0
+      "stamina": 5.25,
+      "staminaRecover": 5.25
     },
     "7870": {
       "id": 7870,
       "name": "通关后_默认",
       "hp": 5.35,
-      "stamina": 5.0,
-      "staminaRecover": 5.0
+      "stamina": 5.35,
+      "staminaRecover": 5.35
     },
     "7874": {
       "id": 7874,
       "name": "通关后_钟鬼",
       "hp": 5.75,
-      "stamina": 6.0,
-      "staminaRecover": 6.0
+      "stamina": 5.75,
+      "staminaRecover": 5.75
     },
     "7900": {
       "id": 7900,
       "name": "兵种特效_小兵",
       "hp": 1.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.5,
+      "staminaRecover": 1.5
     },
     "7901": {
       "id": 7901,
       "name": "兵种特效_大兵",
       "hp": 1.2,
-      "stamina": 1.0,
-      "staminaRecover": 1.0
+      "stamina": 1.2,
+      "staminaRecover": 1.2
     },
     "7902": {
       "id": 7902,
       "name": "兵种特效_精英",
       "hp": 1.125,
-      "stamina": 1.0,
-      "staminaRecover": 1.0
+      "stamina": 1.125,
+      "staminaRecover": 1.125
     },
     "7903": {
       "id": 7903,
@@ -7541,92 +7541,92 @@
       "id": 7930,
       "name": "场地_狮子猿_普通",
       "hp": 2.75,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.75,
+      "staminaRecover": 2.75
     },
     "7931": {
       "id": 7931,
       "name": "场地_狮子猿_双难",
       "hp": 3.9,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 3.9,
+      "staminaRecover": 3.9
     },
     "7932": {
       "id": 7932,
       "name": "场地_狮子猿_交符",
       "hp": 3.05,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 3.05,
+      "staminaRecover": 3.05
     },
     "7933": {
       "id": 7933,
       "name": "场地_狮子猿_敲钟",
       "hp": 2.92,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.92,
+      "staminaRecover": 2.92
     },
     "7934": {
       "id": 7934,
       "name": "再战_连战_狮子猿_普通",
       "hp": 1.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.5,
+      "staminaRecover": 1.5
     },
     "7935": {
       "id": 7935,
       "name": "再战_连战_狮子猿_双难",
       "hp": 1.65,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.65,
+      "staminaRecover": 1.65
     },
     "7936": {
       "id": 7936,
       "name": "再战_连战_狮子猿_交符",
       "hp": 1.65,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.65,
+      "staminaRecover": 1.65
     },
     "7937": {
       "id": 7937,
       "name": "再战_连战_狮子猿_敲钟",
       "hp": 1.65,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.65,
+      "staminaRecover": 1.65
     },
     "7938": {
       "id": 7938,
       "name": "死斗_狮子猿_普通",
       "hp": 1.65,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.65,
+      "staminaRecover": 1.65
     },
     "7939": {
       "id": 7939,
       "name": "死斗_狮子猿_双难",
       "hp": 1.75,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.75,
+      "staminaRecover": 1.75
     },
     "7940": {
       "id": 7940,
       "name": "死斗_狮子猿_交符",
       "hp": 1.75,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.75,
+      "staminaRecover": 1.75
     },
     "7941": {
       "id": 7941,
       "name": "死斗_狮子猿_敲钟",
       "hp": 1.75,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.75,
+      "staminaRecover": 1.75
     },
     "7950": {
       "id": 7950,
       "name": "场地_通用_普通",
       "hp": 3.5,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 3.5,
+      "staminaRecover": 3.5
     },
     "7951": {
       "id": 7951,
@@ -7639,162 +7639,162 @@
       "id": 7952,
       "name": "场地_通用_交符",
       "hp": 4.4,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 4.4,
+      "staminaRecover": 4.4
     },
     "7953": {
       "id": 7953,
       "name": "场地_通用_敲钟",
       "hp": 3.75,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 3.75,
+      "staminaRecover": 3.75
     },
     "7954": {
       "id": 7954,
       "name": "再战_通用_普通",
       "hp": 1.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.5,
+      "staminaRecover": 1.5
     },
     "7955": {
       "id": 7955,
       "name": "再战_通用_双难",
       "hp": 1.65,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.65,
+      "staminaRecover": 1.65
     },
     "7956": {
       "id": 7956,
       "name": "再战_通用_交符",
       "hp": 1.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.5,
+      "staminaRecover": 1.5
     },
     "7957": {
       "id": 7957,
       "name": "再战_通用_敲钟",
       "hp": 1.65,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.65,
+      "staminaRecover": 1.65
     },
     "7958": {
       "id": 7958,
       "name": "死斗_通用_普通",
       "hp": 1.65,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.65,
+      "staminaRecover": 1.65
     },
     "7959": {
       "id": 7959,
       "name": "死斗_通用_双难",
       "hp": 1.75,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.75,
+      "staminaRecover": 1.75
     },
     "7960": {
       "id": 7960,
       "name": "死斗_通用_交符",
       "hp": 1.65,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.65,
+      "staminaRecover": 1.65
     },
     "7961": {
       "id": 7961,
       "name": "死斗_通用_敲钟",
       "hp": 1.75,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.75,
+      "staminaRecover": 1.75
     },
     "7962": {
       "id": 7962,
       "name": "场地_心中弦一郎_普通",
       "hp": 4.25,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 4.25,
+      "staminaRecover": 4.25
     },
     "7963": {
       "id": 7963,
       "name": "场地_心中弦一郎_双难",
       "hp": 5.75,
-      "stamina": 6.0,
-      "staminaRecover": 6.0
+      "stamina": 5.75,
+      "staminaRecover": 5.75
     },
     "7964": {
       "id": 7964,
       "name": "场地_心中弦一郎_交符",
       "hp": 5.35,
-      "stamina": 5.0,
-      "staminaRecover": 5.0
+      "stamina": 5.35,
+      "staminaRecover": 5.35
     },
     "7965": {
       "id": 7965,
       "name": "场地_心中弦一郎_敲钟",
       "hp": 4.5,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 4.5,
+      "staminaRecover": 4.5
     },
     "7966": {
       "id": 7966,
       "name": "再战_心中弦一郎_普通",
       "hp": 1.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.5,
+      "staminaRecover": 1.5
     },
     "7967": {
       "id": 7967,
       "name": "再战_心中弦一郎_双难",
       "hp": 1.65,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.65,
+      "staminaRecover": 1.65
     },
     "7968": {
       "id": 7968,
       "name": "再战_心中弦一郎_交符",
       "hp": 1.75,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.75,
+      "staminaRecover": 1.75
     },
     "7969": {
       "id": 7969,
       "name": "再战_心中弦一郎_敲钟",
       "hp": 1.65,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.65,
+      "staminaRecover": 1.65
     },
     "7970": {
       "id": 7970,
       "name": "死斗_心中弦一郎_普通",
       "hp": 1.65,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.65,
+      "staminaRecover": 1.65
     },
     "7971": {
       "id": 7971,
       "name": "死斗_心中弦一郎_双难",
       "hp": 1.75,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.75,
+      "staminaRecover": 1.75
     },
     "7972": {
       "id": 7972,
       "name": "死斗_心中弦一郎_交符",
       "hp": 1.65,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.65,
+      "staminaRecover": 1.65
     },
     "7973": {
       "id": 7973,
       "name": "死斗_心中弦一郎_敲钟",
       "hp": 1.75,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.75,
+      "staminaRecover": 1.75
     },
     "7974": {
       "id": 7974,
       "name": "场地_怨鬼_修罗连战_普通",
       "hp": 2.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 2.5,
+      "staminaRecover": 2.5
     },
     "7975": {
       "id": 7975,
@@ -7807,169 +7807,169 @@
       "id": 7976,
       "name": "场地_怨鬼_修罗连战_交符",
       "hp": 3.6,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 3.6,
+      "staminaRecover": 3.6
     },
     "7977": {
       "id": 7977,
       "name": "场地_怨鬼_修罗连战_敲钟",
       "hp": 3.75,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 3.75,
+      "staminaRecover": 3.75
     },
     "7978": {
       "id": 7978,
       "name": "连战_怨鬼_修罗连战_普通",
       "hp": 1.3,
-      "stamina": 1.0,
-      "staminaRecover": 1.0
+      "stamina": 1.3,
+      "staminaRecover": 1.3
     },
     "7979": {
       "id": 7979,
       "name": "连战_怨鬼_修罗连战_双难",
       "hp": 1.65,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.65,
+      "staminaRecover": 1.65
     },
     "7980": {
       "id": 7980,
       "name": "连战_怨鬼_修罗连战_交符",
       "hp": 1.85,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.85,
+      "staminaRecover": 1.85
     },
     "7981": {
       "id": 7981,
       "name": "连战_怨鬼_修罗连战_敲钟",
       "hp": 1.65,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.65,
+      "staminaRecover": 1.65
     },
     "7982": {
       "id": 7982,
       "name": "死斗_怨鬼_普通",
       "hp": 1.65,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.65,
+      "staminaRecover": 1.65
     },
     "7983": {
       "id": 7983,
       "name": "死斗_怨鬼_双难",
       "hp": 1.75,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.75,
+      "staminaRecover": 1.75
     },
     "7984": {
       "id": 7984,
       "name": "死斗_怨鬼_交符",
       "hp": 1.65,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.65,
+      "staminaRecover": 1.65
     },
     "7985": {
       "id": 7985,
       "name": "死斗_怨鬼_敲钟",
       "hp": 1.75,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.75,
+      "staminaRecover": 1.75
     },
     "7986": {
       "id": 7986,
       "name": "场地_永真/老一心/巴流弦一郎_普通",
       "hp": 3.75,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 3.75,
+      "staminaRecover": 3.75
     },
     "7987": {
       "id": 7987,
       "name": "场地_永真/老一心/巴流弦一郎_双难",
       "hp": 5.25,
-      "stamina": 5.0,
-      "staminaRecover": 5.0
+      "stamina": 5.25,
+      "staminaRecover": 5.25
     },
     "7988": {
       "id": 7988,
       "name": "场地_永真/老一心/巴流弦一郎_交符",
       "hp": 4.75,
-      "stamina": 5.0,
-      "staminaRecover": 5.0
+      "stamina": 4.75,
+      "staminaRecover": 4.75
     },
     "7989": {
       "id": 7989,
       "name": "场地_永真/老一心/巴流弦一郎_敲钟",
       "hp": 4.25,
-      "stamina": 4.0,
-      "staminaRecover": 4.0
+      "stamina": 4.25,
+      "staminaRecover": 4.25
     },
     "7990": {
       "id": 7990,
       "name": "Orbital Doping 00: Single Rematch + Story Consecutive Battle For bosses in the main story _ Default -- 周回ドーピング00：単発再戦＋ストーリー連戦本編での連戦ボス用_デフォ",
       "hp": 1.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.5,
+      "staminaRecover": 1.5
     },
     "7991": {
       "id": 7991,
       "name": "Orbital Doping 00: Single Rematch + Story Consecutive Battle For Boss in Consecutive Battle _ Hard Mode _ Bell Evening -- 周回ドーピング00：単発再戦＋ストーリー連戦本編での連戦ボス用_ハードモード_鐘宵",
       "hp": 1.65,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.65,
+      "staminaRecover": 1.65
     },
     "7992": {
       "id": 7992,
       "name": "Orbital Doping 00: Single Rematch + Story Consecutive Battle Hard Mode for Boss in the Main Story_Default -- 周回ドーピング00：単発再戦＋ストーリー連戦本編での連戦ボス用ハードモード_デフォ",
       "hp": 1.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.5,
+      "staminaRecover": 1.5
     },
     "7993": {
       "id": 7993,
       "name": "Orbital Doping 00: Single Rematch + Story Consecutive Battle For Boss in Consecutive Battle _ Bell Evening -- 周回ドーピング00：単発再戦＋ストーリー連戦本編での連戦ボス用_鐘宵",
       "hp": 1.65,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.65,
+      "staminaRecover": 1.65
     },
     "7994": {
       "id": 7994,
       "name": "Orbital Doping 00: For consecutive battle bosses in the main part of all consecutive battles_default -- 周回ドーピング00：全連戦本編での連戦ボス用_デフォ",
       "hp": 1.65,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.65,
+      "staminaRecover": 1.65
     },
     "7995": {
       "id": 7995,
       "name": "Orbital Doping 00: For All Consecutive Battles_Hard Mode For Consecutive Battle Boss in Main Story_Bell Evening -- 周回ドーピング00：全連戦用_ハードモード本編での連戦ボス用_鐘宵",
       "hp": 1.75,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.75,
+      "staminaRecover": 1.75
     },
     "7996": {
       "id": 7996,
       "name": "Orbital Doping 00: For all consecutive battles_Hard mode For continuous battle bosses in the main story_Default -- 周回ドーピング00：全連戦用_ハードモード本編での連戦ボス用_デフォ",
       "hp": 1.65,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.65,
+      "staminaRecover": 1.65
     },
     "7997": {
       "id": 7997,
       "name": "Orbital Doping 00: For all consecutive battles For continuous battle bosses in the main story_Kaneyoi -- 周回ドーピング00：全連戦用本編での連戦ボス用_鐘宵",
       "hp": 1.75,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.75,
+      "staminaRecover": 1.75
     },
     "7998": {
       "id": 7998,
       "name": "Growth Doping: Yasha Ape_All Modes_Default -- 成長ドーピング：夜叉猿_全モード共用_デフォ",
       "hp": 2.75,
-      "stamina": 3.0,
-      "staminaRecover": 3.0
+      "stamina": 2.75,
+      "staminaRecover": 2.75
     },
     "7999": {
       "id": 7999,
       "name": "Orbital Doping 00: Yasha Ape_Single Rematch + Story Consecutive Battle_Default -- 周回ドーピング00：夜叉猿_単発再戦＋ストーリー連戦共用_デフォ",
       "hp": 1.5,
-      "stamina": 2.0,
-      "staminaRecover": 2.0
+      "stamina": 1.5,
+      "staminaRecover": 1.5
     },
     "8000": {
       "id": 8000,
@@ -9144,7 +9144,7 @@
       "id": 10606,
       "name": "[NTC] The maximum value of stamina is reduced by playing animation -- 【NTC】弾かれアニメでスタミナの最大値が減る",
       "hp": 1.0,
-      "stamina": 1.0,
+      "stamina": 0.9,
       "staminaRecover": 1.0
     },
     "10607": {
@@ -16676,7 +16676,7 @@
       "id": 275000,
       "name": "宫内破戒僧二阶段加成",
       "hp": 0.75,
-      "stamina": 1.0,
+      "stamina": 0.8,
       "staminaRecover": 1.0
     },
     "275001": {
@@ -16711,7 +16711,7 @@
       "id": 275100,
       "name": "狮子猿二阶段加成",
       "hp": 1.1,
-      "stamina": 1.0,
+      "stamina": 1.1,
       "staminaRecover": 1.0
     },
     "275101": {
@@ -16787,7 +16787,7 @@
     "281401": {
       "id": 281401,
       "name": "[NTC] Swordsman_Red Eye Reaction Cool Time_After Reaction -- 【NTC】剣客_赤目炎リアクションクールタイム_リアクション後",
-      "hp": 0.0,
+      "hp": 1.0,
       "stamina": 1.0,
       "staminaRecover": 1.0
     },
@@ -16872,28 +16872,28 @@
       "id": 291450,
       "name": "[NTC] Nightjars_Red Eye Doping -- 【NTC】夜鷹衆_赤目ドーピング",
       "hp": 2.0,
-      "stamina": 2.0,
+      "stamina": 1.5,
       "staminaRecover": 1.0
     },
     "297410": {
       "id": 297410,
       "name": "[NTC] Fascinated Samurai_Red Eye Doping -- 【NTC】魅了された侍_赤目ドーピング",
       "hp": 2.5,
-      "stamina": 2.0,
+      "stamina": 2.4,
       "staminaRecover": 1.0
     },
     "297470": {
       "id": 297470,
       "name": "[NTC] kidnapped younger man_red-eye doping -- 【NTC】さらわれ下男_赤目ドーピング",
       "hp": 2.2,
-      "stamina": 3.0,
+      "stamina": 2.61,
       "staminaRecover": 1.0
     },
     "297490": {
       "id": 297490,
       "name": "[NTC] Immortal Experiment Doctor_Red Eye Doping -- 【NTC】不死実験の医僧_赤目ドーピング",
       "hp": 4.5,
-      "stamina": 4.0,
+      "stamina": 4.5,
       "staminaRecover": 1.0
     },
     "300010": {
@@ -17096,14 +17096,14 @@
       "id": 300310,
       "name": "Trunk 0 (permanent) -- 体幹0(永続)",
       "hp": 1.0,
-      "stamina": 0.0,
+      "stamina": 0.001,
       "staminaRecover": 1.0
     },
     "300311": {
       "id": 300311,
       "name": "Trunk 0 (moment) -- 体幹0（瞬間）",
       "hp": 1.0,
-      "stamina": 0.0,
+      "stamina": 0.001,
       "staminaRecover": 1.0
     },
     "300320": {
@@ -17209,84 +17209,84 @@
       "name": "Core performance DOWN when HP is 80% or less -- HP80%以下で体幹性能DOWN",
       "hp": 1.0,
       "stamina": 1.0,
-      "staminaRecover": 0.0
+      "staminaRecover": 0.375
     },
     "300581": {
       "id": 300581,
       "name": "Core performance DOWN when HP is 60% or less -- HP60%以下で体幹性能DOWN",
       "hp": 1.0,
       "stamina": 1.0,
-      "staminaRecover": 1.0
+      "staminaRecover": 0.6666667
     },
     "300582": {
       "id": 300582,
       "name": "Core performance DOWN when HP is 40% or less -- HP40%以下で体幹性能DOWN",
       "hp": 1.0,
       "stamina": 1.0,
-      "staminaRecover": 0.0
+      "staminaRecover": 0.164
     },
     "300590": {
       "id": 300590,
       "name": "Core performance DOWN at HP 64% or less -- HP64%以下で体幹性能DOWN",
       "hp": 1.0,
       "stamina": 1.0,
-      "staminaRecover": 0.0
+      "staminaRecover": 0.5
     },
     "300591": {
       "id": 300591,
       "name": "Core performance DOWN at HP 48% or less -- HP48%以下で体幹性能DOWN",
       "hp": 1.0,
       "stamina": 1.0,
-      "staminaRecover": 0.0
+      "staminaRecover": 0.334
     },
     "300592": {
       "id": 300592,
       "name": "Core performance DOWN when HP is 32% or less -- HP32%以下で体幹性能DOWN",
       "hp": 1.0,
       "stamina": 1.0,
-      "staminaRecover": 0.0
+      "staminaRecover": 0.4988024
     },
     "300600": {
       "id": 300600,
       "name": "Core performance DOWN when HP is 80% or less -- HP80%以下で体幹性能DOWN",
       "hp": 1.0,
       "stamina": 1.0,
-      "staminaRecover": 1.0
+      "staminaRecover": 0.6
     },
     "300601": {
       "id": 300601,
       "name": "Core performance DOWN when HP is 60% or less -- HP60%以下で体幹性能DOWN",
       "hp": 1.0,
       "stamina": 1.0,
-      "staminaRecover": 0.0
+      "staminaRecover": 0.5
     },
     "300602": {
       "id": 300602,
       "name": "Core performance DOWN when HP is 40% or less -- HP40%以下で体幹性能DOWN",
       "hp": 1.0,
       "stamina": 1.0,
-      "staminaRecover": 0.0
+      "staminaRecover": 0.33333334
     },
     "300605": {
       "id": 300605,
       "name": "Core performance DOWN at HP 80% or less (for core elite) -- HP80%以下で体幹性能DOWN　（体幹エリート用）",
       "hp": 1.0,
       "stamina": 1.0,
-      "staminaRecover": 0.0
+      "staminaRecover": 0.5
     },
     "300606": {
       "id": 300606,
       "name": "Core performance DOWN at HP 60% or less (for core elite) -- HP60%以下で体幹性能DOWN　（体幹エリート用）",
       "hp": 1.0,
       "stamina": 1.0,
-      "staminaRecover": 0.0
+      "staminaRecover": 0.334
     },
     "300607": {
       "id": 300607,
       "name": "Core performance DOWN at HP 40% or less (for core elite) -- HP40%以下で体幹性能DOWN　（体幹エリート用）",
       "hp": 1.0,
       "stamina": 1.0,
-      "staminaRecover": 0.0
+      "staminaRecover": 0.4988024
     },
     "300610": {
       "id": 300610,
@@ -17698,7 +17698,7 @@
       "id": 310632,
       "name": "[NTC] Combat Tutorial_Ochimusha Increases the trunk by 1.1 times -- 【NTC】戦闘チュートリアル_落武者 体幹を1.1倍にする",
       "hp": 1.0,
-      "stamina": 1.0,
+      "stamina": 1.3,
       "staminaRecover": 1.0
     },
     "310640": {
@@ -22283,7 +22283,7 @@
       "id": 3530030,
       "name": "[NTC] Old man _ Black old man judgment -- 【NTC】翁竜_黒翁竜判定",
       "hp": 1.0,
-      "stamina": 0.0,
+      "stamina": 0.25,
       "staminaRecover": 1.0
     },
     "3530040": {
@@ -22311,7 +22311,7 @@
       "id": 3530500,
       "name": "[NTC] Okiryu_Half trunk -- 【NTC】翁竜_体幹半分",
       "hp": 1.0,
-      "stamina": 0.0,
+      "stamina": 0.5,
       "staminaRecover": 1.0
     },
     "3530501": {

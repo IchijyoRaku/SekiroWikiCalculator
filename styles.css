@@ -9,6 +9,8 @@
   --muted: #666666;
   --chip: #f5f5f5;
   --accent: #dcdcdc;
+  --active-cell-bg: #fff1bf;
+  --active-cell-border: #d3a300;
 }
 
 * {
@@ -30,7 +32,8 @@ select {
 }
 
 .app {
-  max-width: 1680px;
+  width: fit-content;
+  max-width: min(100%, 1120px);
   margin: 0 auto;
   padding: 16px;
   display: grid;
@@ -109,25 +112,43 @@ select {
 }
 
 .table-viewport {
+  width: fit-content;
+  max-width: 100%;
   overflow-x: auto;
+  overflow-y: hidden;
   border: 1px solid var(--border);
   background: #ffffff;
 }
 
 .result-table {
-  width: 100%;
-  min-width: 1560px;
-  border-collapse: collapse;
+  width: auto;
+  min-width: 1014px;
+  border-collapse: separate;
+  border-spacing: 0;
   table-layout: fixed;
+}
+
+.result-table col.metric-value-col {
+  width: 74px;
 }
 
 .result-table th,
 .result-table td {
-  border: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
   padding: 6px;
   text-align: center;
   vertical-align: middle;
   font-size: 12px;
+  background-clip: padding-box;
+}
+
+.result-table tr > *:first-child {
+  border-left: 1px solid var(--border);
+}
+
+.result-table thead tr:first-child > * {
+  border-top: 1px solid var(--border);
 }
 
 .result-table thead th {
@@ -140,12 +161,12 @@ select {
 }
 
 .result-table .difficulty-head {
-  width: 88px;
+  width: 68px;
   background: var(--subhead);
 }
 
 .result-table .metric-head {
-  width: 88px;
+  width: 68px;
   background: #fafafa;
 }
 
@@ -171,13 +192,13 @@ select {
 }
 
 .result-table .selector-row label.short {
-  width: 120px;
-  flex: 0 0 120px;
+  width: 92px;
+  flex: 0 0 92px;
 }
 
 .result-table .selector-row label.enemy {
-  width: 220px;
-  flex: 0 0 220px;
+  width: 160px;
+  flex: 0 0 160px;
 }
 
 .result-table .selector-row select {
@@ -215,7 +236,9 @@ select {
 }
 
 .result-table td button {
+  display: block;
   width: 100%;
+  min-width: 0;
   border: 0;
   background: transparent;
   padding: 2px;
@@ -223,8 +246,14 @@ select {
   color: #222222;
 }
 
+.result-table td.result-cell.is-selected {
+  background: var(--active-cell-bg) !important;
+  box-shadow: inset 0 0 0 1px var(--active-cell-border);
+}
+
+.result-table td.result-cell.is-selected button,
 .result-table td button.is-selected {
-  background: var(--accent);
+  background: var(--active-cell-bg) !important;
 }
 
 .result-table td button:hover,
@@ -244,6 +273,24 @@ select {
   gap: 10px;
 }
 
+.tip-heading {
+  margin-bottom: 0;
+}
+
+.tip-caption {
+  margin: -2px 0 0;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.tip-summary-block {
+  display: grid;
+  gap: 8px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
 .tip-empty {
   padding: 8px 0;
 }
@@ -251,10 +298,6 @@ select {
 .tip-card {
   display: grid;
   gap: 10px;
-}
-
-.tip-meta {
-  font-size: 13px;
 }
 
 .tip-formula {
