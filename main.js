@@ -79,6 +79,7 @@ const VALIDATION_OVERRIDES = {
 };
 
 const refs = {
+  ruleList: document.getElementById("rule-list"),
   summaryChips: document.getElementById("summary-chips"),
   tableContainer: document.getElementById("table-container"),
   tipCaption: document.getElementById("tip-caption"),
@@ -523,8 +524,6 @@ function renderSummary(enemy) {
     `ID：${enemy.id}`,
     `名称：${enemy.name ?? "-"}`,
     `类型：${enemy.enemyType ?? "-"}`,
-    `当前天色：${TIME_OPTIONS.find((item) => item.value === state.time)?.label || state.time}`,
-    `当前阶段：${state.phase}阶段`,
     `基础HP：${enemy.baseHp}`,
     `基础躯干：${enemy.baseStamina}`,
     `基础躯干恢复：${enemy.baseStaminaRecover}`,
@@ -533,13 +532,16 @@ function renderSummary(enemy) {
       .map((value) => TIME_OPTIONS.find((item) => item.value === value)?.label || value)
       .join(" / ")}`,
   ];
+  refs.summaryChips.innerHTML = chips.map((chip) => `<span class="summary-chip">${chip}</span>`).join("");
+}
 
-  refs.summaryChips.innerHTML = `
-    <div class="tip-summary-block">
-      <h3>数据概览</h3>
-      <div class="summary-chips">${chips.map((chip) => `<span class="summary-chip">${chip}</span>`).join("")}</div>
-    </div>
-  `;
+function renderRules(enemy) {
+  const rules = [
+    `当前敌人：${enemy.name ?? enemy.id}`,
+    `当前天色：${TIME_OPTIONS.find((item) => item.value === state.time)?.label || state.time}`,
+    `当前阶段：${state.phase}阶段`,
+  ];
+  refs.ruleList.innerHTML = rules.map((text) => `<li>${text}</li>`).join("");
 }
 
 function renderTable(enemy) {
@@ -569,11 +571,6 @@ function renderTable(enemy) {
 
   const html = [
     '<table class="result-table">',
-    '<colgroup>',
-    '<col class="difficulty-label-col">',
-    '<col class="metric-label-col">',
-    ...columns.map(() => '<col class="metric-value-col">'),
-    '</colgroup>',
     '<thead>',
     '<tr>',
     selectorCell,
@@ -596,8 +593,7 @@ function renderTable(enemy) {
     columns.forEach((column) => {
       const computation = buildComputation(enemy, row.metric, row.difficulty, column);
       const key = `${row.group.key}|${row.metric.key}|${column.key}`;
-      const selectedClass = state.selectedKey === key ? 'is-selected' : '';
-      html.push(`<td class="result-cell ${selectedClass}"><button type="button" data-key="${key}" class="${selectedClass}"><strong>${computation?.value ?? '-'}</strong></button></td>`);
+      html.push(`<td><button type="button" data-key="${key}" class="${state.selectedKey === key ? 'is-selected' : ''}"><strong>${computation?.value ?? '-'}</strong></button></td>`);
     });
     html.push('</tr>');
   });
@@ -679,8 +675,6 @@ function renderTable(enemy) {
 }
 
 function renderTip(enemy) {
-  renderSummary(enemy);
-
   if (!state.selectedKey) {
     refs.tipCaption.textContent = '请选择一个结果单元格查看乘算链。';
     refs.tipContent.className = 'tip-empty';
@@ -759,6 +753,7 @@ function syncStateWithEnemy() {
 function renderApp() {
   const enemy = getEnemy();
   if (!enemy) {
+    refs.ruleList.innerHTML = '<li>数据尚未加载。</li>';
     refs.summaryChips.innerHTML = '';
     refs.tableContainer.innerHTML = '';
     refs.tipCaption.textContent = '数据尚未加载';
@@ -766,6 +761,8 @@ function renderApp() {
     return;
   }
   syncStateWithEnemy();
+  renderSummary(enemy);
+  renderRules(enemy);
   renderTable(enemy);
   renderTip(enemy);
 }
