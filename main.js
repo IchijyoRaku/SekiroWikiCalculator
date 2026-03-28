@@ -208,16 +208,7 @@ function getNgMultiplier(ngValue, noCharm, metricDef) {
   if (!row) {
     return 1;
   }
-  if (metricDef.key === "hp") {
-    return Number(row.hp_bonus || 1);
-  }
-  if (metricDef.key === "stamina") {
-    return Number(row["���˶�������"] || 1);
-  }
-  if (metricDef.key === "staminaRecover") {
-    return Number(row["�����ͱ���"] || 1);
-  }
-  return 1;
+  return Number(row.hp_bonus || 1);
 }
 
 function buildMainlineSteps(enemy, difficulty, metricDef, ngValue) {
