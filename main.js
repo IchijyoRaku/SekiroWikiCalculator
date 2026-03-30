@@ -436,9 +436,10 @@ function getVisibleDifficultyGroups(enemy) {
   const buffs = getData().buffs || {};
   const baseBonusIds = resolveBaseBonusIds(enemy.baseBonusBuffStart, buffs);
   const innerBossOnlyIds = new Set([71001000, 71100000, 50601010, 54000000]);
+  const fullDisplayExceptionIds = new Set([50600000, 54300000, 74000010]);
   const hideBell = baseBonusIds.length === 1 || (enemy.name || "") === "赤鬼（虎口阶梯）";
   const isInnerBossOnly = innerBossOnlyIds.has(enemy.id) && isInnerBossEntry(enemy);
-  const mergeDifficulty = !isInnerBossOnly && baseBonusIds.length === 2 && state.time <= 2;
+  const mergeDifficulty = !isInnerBossOnly && !fullDisplayExceptionIds.has(enemy.id) && baseBonusIds.length === 2 && state.time <= 2;
 
   if (hideBell) {
     return [
