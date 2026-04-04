@@ -547,7 +547,7 @@ function renderTable(enemy) {
   );
 
   const selectorCell = `
-    <th class="selector-cell" colspan="${columns.length}">
+    <th class="selector-cell" colspan="${columns.length+2}">
       <div class="selector-row">
         <label class="short">类型<select id="type-select">${buildTypeOptionsHtml()}</select></label>
         <button type="button" class="filter-reset" id="type-reset" aria-label="重置类型筛选">↺</button>
