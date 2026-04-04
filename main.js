@@ -360,7 +360,7 @@ function buildFormulaText(steps) {
 function isInnerBossEntry(enemy) {
   const innerBossOnlyIds = new Set([71001000, 71100000, 50601010, 54000000]);
   const hasNoTimeSeq = !enemy.timeSeq || enemy.timeSeq.length === 0;
-  const isInnerName = (enemy.name || "").includes("���е") || (enemy.name || "").includes("心中");
+  const isInnerName =  (enemy.name || "").includes("心中");
   return innerBossOnlyIds.has(enemy.id) && hasNoTimeSeq && isInnerName;
 }
 
@@ -387,7 +387,8 @@ function getAutoColumns(enemy) {
     ];
   }
 
-  const noSpecialModeIds = new Set([50800000]);
+  const noSpecialModeIds = new Set([71000000]);
+
   if (
     enemy.enemyType === "boss" &&
     !noSpecialModeIds.has(enemy.id) &&
@@ -436,7 +437,7 @@ function getVisibleDifficultyGroups(enemy) {
   const buffs = getData().buffs || {};
   const baseBonusIds = resolveBaseBonusIds(enemy.baseBonusBuffStart, buffs);
   const innerBossOnlyIds = new Set([71001000, 71100000, 50601010, 54000000]);
-  const fullDisplayExceptionIds = new Set([50600000, 54300000, 74000010]);
+  const fullDisplayExceptionIds = new Set([50600000, 54300000, 74000010, 50601010]);
   const hideBell = baseBonusIds.length === 1 || (enemy.name || "") === "赤鬼（虎口阶梯）";
   const isInnerBossOnly = innerBossOnlyIds.has(enemy.id) && isInnerBossEntry(enemy);
   const mergeDifficulty = !isInnerBossOnly && !fullDisplayExceptionIds.has(enemy.id) && baseBonusIds.length === 2 && state.time <= 2;
